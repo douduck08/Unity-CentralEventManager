@@ -22,7 +22,7 @@ public class CustomArgs : EventArgs {
             return m_number;
         }
     }
-    public EventBArgs (int num) {
+    public CustomArgs (int num) {
         m_number = num;
     }
 }
